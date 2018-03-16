@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SublitApp from './containers/SublitApp'
 
-class SublitApp extends React.Component {
+class Sublit extends React.Component {
   render() {
     return(
-      <h1> Sublit </h1>
+      <SublitApp />
     );
   }
 }
 
-ReactDOM.render(<SublitApp />, document.getElementById('app'));
+ReactDOM.render(<Sublit />, document.getElementById('app'));
