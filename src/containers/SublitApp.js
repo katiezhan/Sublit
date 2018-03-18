@@ -11,6 +11,9 @@ export default class SublitApp extends React.Component {
     };
   }
 
+  //Google maps requires preset height and width, therefore have to grab it
+  //from current window.
+
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
